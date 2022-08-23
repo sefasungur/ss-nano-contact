@@ -11,8 +11,8 @@ Requires PHP: 8.0.0
 License: GPLv2 or later
 Text Domain: ss-nano-contact
 Requires Plugins: font-awesome
-GitHub Theme URI: sefasungur/nano-contact
-GitHub Theme URI: https://github.com/sefasungur/nano-contact
+GitHub Theme URI: sefasungur/ss-nano-contact
+GitHub Theme URI: https://github.com/sefasungur/ss-nano-contact
 */
 
 /*
