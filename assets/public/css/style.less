@@ -1,0 +1,105 @@
+.snc-wrapper {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        display: block;
+        text-align: center;
+        font-size: 1.3em;
+        border-radius: 4px;
+        transition: all 0.5s;
+        transform: scale(1);
+      }
+      &:hover, &:focus, &:active {
+        a {
+          transform: scale(.9);
+        }
+      }
+      &.vertical {
+        display: block;
+        margin-bottom: 10px;
+        float: none;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      &.horizontal {
+        float: left;
+        display: inline-block;
+        margin-right: 10px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+  &.regular {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    &.right {
+      float: right;
+      margin-right: 15px;
+    }
+    &.left {
+      float: left;
+      margin-left: 15px;
+    }
+    &.top {
+      margin-top: 15px;
+    }
+    &.bottom {
+      margin-bottom: 15px;
+    }
+    &.v-center {
+      top: 50%;
+      bottom: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &.h-center {
+      left: 50%;
+      right: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  &.fixed {
+    position: fixed;
+    z-index: 99;
+    &.top {
+      top: 15px;
+      bottom: auto;
+    }
+    &.right {
+      right: 15px;
+      left: auto;
+    }
+    &.left {
+      left: 15px;
+      right: auto;
+    }
+    &.bottom {
+      bottom: 15px;
+      top: auto;
+    }
+    &.v-center {
+      top: 50%;
+      transform: translate(-50%, -50%);
+      &.left {
+        left: 30px;
+      }
+      &.right {
+        right: -10px;
+      }
+    }
+    &.h-center {
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
