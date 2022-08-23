@@ -8,10 +8,10 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Adding Whatsapp, phone, email, social media and other buttons your site.
+Adding phone, email, social media and other buttons your site.
 
 == Description ==
-Adding Whatsapp, phone, email, social media and other buttons your site.
+Adding phone, email, social media and other buttons your site.
 
 == Installation ==
 1. Upload \"ss-nano-content\" directory to the \"/wp-content/plugins/\" directory.
